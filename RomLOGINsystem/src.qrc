@@ -2,6 +2,7 @@
     <qresource prefix="/images">
         <file>main_dWS_icon.ico</file>
         <file>mdyblur.png</file>
+        <file>osrfm.jpg</file>
         <file>polblur.png</file>
         <file>primary_KMx_icon.ico</file>
         <file>ygnblur.jpg</file>
