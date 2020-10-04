@@ -7,6 +7,8 @@
 #include <QMessageBox>
 #include <QFileInfo>
 #include <QSqlQuery>
+#include <QPropertyAnimation>
+#include <QParallelAnimationGroup>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -30,6 +32,14 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+    QPropertyAnimation *animation1;
+    QPropertyAnimation *animation2;
+    QPropertyAnimation *animation3;
+    QPropertyAnimation *animation4;
+    QPropertyAnimation *animation5;
+    QPropertyAnimation *animation6;
+    QParallelAnimationGroup *animationGroup;
     void check_password();
+
 };
 #endif // MAINWINDOW_H
