@@ -9,19 +9,13 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    admindialog.cpp \
-    clientdialog.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
-    admindialog.h \
-    clientdialog.h \
     mainwindow.h
 
 FORMS += \
-    admindialog.ui \
-    clientdialog.ui \
     mainwindow.ui
 
 # Default rules for deployment.

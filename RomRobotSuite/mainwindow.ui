@@ -40,7 +40,7 @@
   </property>
   <property name="windowIcon">
    <iconset resource="src.qrc">
-    <normaloff>:/images/main_dWS_icon.ico</normaloff>:/images/main_dWS_icon.ico</iconset>
+    <normaloff>:/images/logo.png</normaloff>:/images/logo.png</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">#centralwidget{

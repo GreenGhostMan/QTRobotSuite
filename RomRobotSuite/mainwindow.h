@@ -10,8 +10,8 @@
 #include <QPropertyAnimation>
 #include <QParallelAnimationGroup>
 
-#include <admindialog.h>
-#include <clientdialog.h>
+//#include <admindialog.h>
+//#include <clientdialog.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }

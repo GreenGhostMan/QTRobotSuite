@@ -1,7 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
-#define path_to_userDB "/home/.romrobotics/rom_user.sqlite"
+#define path_to_userDB "rom_user.sqlite"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -107,7 +107,7 @@ void MainWindow::check_password()
         {
             QMessageBox::warning(this,"Not Existed!","E004: DB ဖိုင်မရှိပါ။");
         }
-
+        db.close();
     }
     else
     {
@@ -134,17 +134,17 @@ void MainWindow::on_lineEditPassword_editingFinished()
 
 void MainWindow::on_adminbtn_clicked()
 {
-    this->hide();
-    adminDialog adm_dialog;
-    adm_dialog.setModal(true);
-    adm_dialog.exec();
+//    this->hide();
+//    adminDialog adm_dialog;
+//    adm_dialog.setModal(true);
+//    adm_dialog.exec();
 
 }
 
 void MainWindow::on_clientbtn_clicked()
 {
-    //this->hide();
-    clientDialog cli_dialog;
-    cli_dialog.setModal(true);
-    cli_dialog.exec();
+//    //this->hide();
+//    clientDialog cli_dialog;
+//    cli_dialog.setModal(true);
+//    cli_dialog.exec();
 }
